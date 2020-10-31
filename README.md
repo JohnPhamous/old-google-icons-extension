@@ -2,6 +2,8 @@
 
 > A browser extension that replaces the new Google icons with the classic ones.
 
+![New and old Google icons](./store/screenshot.png)
+
 ## Install Links
 
 TODO: Upload the extension to the relevant stores.
