@@ -1,0 +1,31 @@
+{
+  "name": "old-google-icons-extension",
+  "version": "1.0.0",
+  "description": "Replaces the new Google icons with the classic Google icons.",
+  "author": "John Pham <johnphammail@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JohnPhamous/old-google-icons-extension.git"
+  },
+  "private": false,
+  "scripts": {
+    "lint": "prettier -l \"**/*.{js,json,yml,yaml,md}\" && eslint . && web-ext lint",
+    "lint:fix": "prettier --write \"**/*.{js,json,yml,yaml,md}\" && eslint . --fix && web-ext lint",
+    "test": "npm run lint",
+    "build": "web-ext build",
+    "start": "web-ext run"
+  },
+  "engines": {
+    "node": "^12.18.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.12.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "6.12.0",
+    "eslint-plugin-import": "^2.22.1",
+    "prettier": "2.1.2",
+    "standard-version": "9.0.0",
+    "web-ext": "5.2.0"
+  }
+}

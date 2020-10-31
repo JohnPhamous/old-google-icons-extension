@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Old Google Icons",
+  "version": "1.0.0",
+  "description": "Replaces the new Google icons with the classic Google icons.",
+  "author": "John Pham <johnphammail@gmail.com>",
+  "homepage_url": "https://github.com/JohnPhamous/old-google-icons-extension",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png",
+    "300": "icon300.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.google.com/*", "https://twitter.com/"],
+      "js": ["content-script.js"]
+    }
+  ]
+}
