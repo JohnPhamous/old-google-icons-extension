@@ -8,10 +8,9 @@
 
 TODO: Upload the extension to the relevant stores.
 
-- [Firefox]()
+- [Firefox](https://addons.mozilla.org/en-US/firefox/addon/old-google-icons/)
 - [Chrome]()
 - [Edge]()
-- [Safari]()
 
 ## How to contribute
 
